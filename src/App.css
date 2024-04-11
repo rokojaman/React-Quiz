@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#answers {
+  display: grid;
+  justify-content: center;
+}
+
+#q h2 {
+  width: 100%;
+}
+
+button {
+  width: fit-content;
+  margin: auto;
+}
+
+.option {
+  display: flex;
+  justify-content: left;
+}
+
+.option p {
+  width: fit-content;
+  height: fit-content;
+}
+
+input {
+  height: 17px;
+  margin: 16px;
+}
+
+select {
+  height: 24px;
+  margin: 16px;
+}
+
